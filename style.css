@@ -1,0 +1,107 @@
+
+/* The desktop design  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --greencolor: rgb(19, 92, 19);
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-content: center center;
+}
+
+
+
+
+.outer{
+    background-color: bisque;
+    width: 700px;
+    height: 600px;
+    position: relative;
+   
+
+}
+
+.container{
+    display: flex;
+    max-width: 500px;
+    max-height: 370px;
+    position: absolute;
+    top: 6rem;
+    left: 6rem;
+    backdrop-filter: blur(5px);
+   
+
+}
+
+
+.second{
+    padding: 1rem;
+    background-color: white;
+
+}
+
+.ptag{
+    text-transform: uppercase;
+    color: grey;
+    letter-spacing: 5px;
+    font-size: 1rem;
+
+}
+
+h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    line-height: 1.9rem;
+
+}
+
+.paragraph{
+    color: gray;
+    line-height: 1.3rem;
+    padding: 0 0 1rem 0;
+    max-width: 230px;
+
+}
+
+span{
+    display: flex;
+    gap: 1rem;
+    padding: 0 0 1rem 0;
+
+
+}
+
+.price{
+    color: var(--greencolor);
+    font-size: 2rem;
+    font-family:serif;
+
+
+}
+
+.small-price{
+    margin-top: 0.7rem;
+    color: grey;
+
+}
+
+
+button{
+    color: white;
+    background-color: var(--greencolor);
+    font-size: 1rem;
+    min-width: 220px;
+    border-radius: 7px;
+    border: none;
+    padding: 7px;
+    
+ 
+}
